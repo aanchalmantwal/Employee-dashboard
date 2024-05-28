@@ -1,0 +1,49 @@
+.empimage-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0px; 
+  margin-top: 73px;
+}
+
+.empimage-info {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date, .time {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em; 
+ 
+}
+
+.empimage-container {
+  border:20px ;
+    border-radius: 10px;
+    overflow: hidden; 
+    margin-left: 0; 
+    padding: 0;
+  }
+  
+  .empimage {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+    display: grid;
+    margin-top: 10px;
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .empimage-wrapper {
+      display: grid;
+      margin: 20px 0;
+      width: 200px;
+    }
+  
+    .empimage {
+      max-width: 100%;
+      height: auto;
+    }
+  }
